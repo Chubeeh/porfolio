@@ -15,12 +15,14 @@ body{
     h4,
     h5,
     h6{
-        color: rgb(3, 3, 3);
+        color: black;
         font-family: var(--heading-font-family);
         font-weight: bold;
     }
     p{
         font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
     }
     .hero{
         background:var(--secondary-color);
@@ -50,4 +52,25 @@ body{
             color: #FFFFFF !important;
             line-height: 27px !important;
             
+        }
+        .btn-branding-plain{
+                padding: 15px 30px !important;
+                background: #FFFFFF !important;
+                font-size: 18px !important;
+                border-radius: 4px !important;
+                color: #885DF1 !important;
+                line-height: 27px !important;
+                border: 1px solid #885DF1  !important;
+        }
+                
+
+               
+        .project-description{
+                    padding: 120px 60px;
+                }
+        .project-description h2{
+            font-size: 64px;
+        }
+        .project-description p{
+            color: #767F86;
         }
