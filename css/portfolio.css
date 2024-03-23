@@ -174,4 +174,10 @@ nav li.active a{
             text-align: center;
             padding: 0;
         }
+        nav a{
+            font-size: 14px;
+        }
+        nav li{
+            margin: 5px;
+        }
 }
